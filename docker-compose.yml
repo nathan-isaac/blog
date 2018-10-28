@@ -1,0 +1,8 @@
+version: '3.7'
+
+services: 
+  ghost: 
+    build: .
+    restart: always
+    ports: 
+      - 8065:2368
